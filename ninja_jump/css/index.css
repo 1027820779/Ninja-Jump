@@ -1,0 +1,202 @@
+/*  bax bat */
+
+@font-face {
+	font-family: "ruqi";
+	src:url("../font/UKIJRu.ttf");
+}
+@font-face {
+	font-family: "diwani";
+	src:url("../font/UKIJDi.ttf");
+}
+#tag {
+	width: 1900px;
+	height: 960px;
+	background: black;
+	position:relative;
+	margin:auto;
+}
+
+#tag #back {
+	width: 640px;
+	height: 960px;
+	margin: 4px auto;
+	background: url("../img/indexpic.jpg");
+	position: relative;
+}
+
+#tag #back #qalla {
+	width: 258px;
+	height: 97px;
+	background: url("../img/cipil.png");
+	position: absolute;
+	right: 10px;
+	top: 539px;
+	cursor: pointer;
+	font-size: 70px;
+	font-family:diwani;
+	color: rgb(193, 62, 215);
+	line-height: 97px;
+	text-indent: 28px;	
+	-webkit-transition: text-shadow 0.5s;
+	
+	-webkit-animation-name:herkat;
+	-webkit-animation-duration:3s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+}
+@-webkit-keyframes herkat{
+	0%{-webkit-transform: scale(1, 1);}
+	50%{-webkit-transform: scale(0.9, 0.9);}
+	100%{-webkit-transform: scale(1, 1);}
+}
+#tag #back #qalla:hover {
+	
+	text-shadow: 0px 0px 30px rgb(193, 62, 215);
+	-webkit-transition: text-shadow 0.5s;
+}
+
+#tag #back #qarakqi {
+	width: 258px;
+	height: 97px;
+	background: url("../img/qarakqi.png");
+	position: absolute;
+	right: 10px;
+	top: 658px;
+	cursor: pointer;
+	font-size: 62px;
+	font-family:diwani;
+	color: rgb(53, 191, 223);
+	line-height: 97px;
+	text-indent: 26px;
+	-webkit-transition: text-shadow 0.5s;
+	
+		-webkit-animation-name:herkat;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+}
+@-webkit-keyframes herkat{
+	0%{-webkit-transform: scale(1, 1);}
+	50%{-webkit-transform: scale(0.9, 0.9);}
+	100%{-webkit-transform: scale(1, 1);}
+}
+#tag #back #qarakqi:hover {
+	text-shadow: 0px 0px 30px rgb(53, 191, 223);
+	-webkit-transition: text-shadow 0.5s;
+}
+
+#tag #back #ormanlik {
+	width: 258px;
+	height: 97px;
+	background: url(../img/orman.png);
+	position: absolute;
+	right: 10px;
+	top: 784px;
+	cursor: pointer;
+	font-size: 55px;
+	font-family:diwani;
+	color: rgb(17, 223, 67);
+	line-height: 97px;
+	text-indent: 26px;
+	-webkit-transition: text-shadow 0.5s;
+	
+	
+		-webkit-animation-name:herkat;
+	-webkit-animation-duration:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+}
+@-webkit-keyframes herkat{
+	0%{-webkit-transform: scale(1, 1);}
+	50%{-webkit-transform: scale(0.8, 0.8);}
+	100%{-webkit-transform: scale(1, 1);}
+}
+#tag #back #ormanlik:hover {
+	text-shadow: 0px 0px 30px rgb(17, 223, 67);
+	-webkit-transition: text-shadow 0.5s;
+}
+
+#tag #back #tallax1 {
+	width: 173px;
+	height: 75px;
+	background: url("../img/taalx.png");
+	position: absolute;
+	left: 15px;
+	top: 613px;
+	font-size: 45px;
+	line-height: 75px;
+	font-family:ruqi;
+	color: rgb(70, 189, 135);
+	text-indent: 15px;
+	top: 613px;
+}
+
+#tag #back #tallax1 #mause {
+	position: absolute;
+	top: 32px; left : 131px;
+	width: 14px;
+	height: 14px;
+	border-radius: 14px;
+	background: white;
+	cursor: pointer;
+	font-size: 0px;
+	left: 131px;
+}
+
+#tag #back #tallax2 {
+	width: 173px;
+	height: 75px;
+	background: url("../img/taalx.png");
+	position: absolute;
+	left: 15px;
+	top: 716px;
+	font-size: 45px;
+	line-height: 75px;
+	font-family:ruqi;
+	color: rgb(70, 189, 135);
+	text-indent: 15px;
+}
+
+#tag #back #tallax2 #key {
+	position: absolute;
+	top: 32px; left : 131px;
+	cursor: pointer;
+	width: 14px;
+	height: 14px;
+	border-radius: 14px;
+	background: white;
+	font-size: 0px;
+	left: 131px;
+}
+
+#tag #back #help {
+	width: 194px;
+	height: 42px;
+	background: url("../img/help.png");
+	position: absolute;
+	left: 15px;
+	top: 913px;
+	font-size: 35px;
+	line-height: 32px;
+	font-family:ruqi;
+	color: rgb(218, 14, 6);
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: color 1s;
+}
+
+#tag #back #help:hover {
+	color: rgb(144, 139, 139);
+	-webkit-transition: color 1s;
+}
+
+#tag #back #music {
+	width: 137px;
+	height: 91px;
+	background: url("../img/music_on.png");
+	position: absolute;
+	left: 15px;
+	top: 812px;
+	cursor: pointer;
+	font-size: 0px;
+}

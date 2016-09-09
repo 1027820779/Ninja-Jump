@@ -1,0 +1,358 @@
+@font-face {
+	font-family: "tuz";
+	src:url(../font/UKIJTuz.ttf);
+}
+@font-face {
+	font-family: "diwani";
+	src:url("../font/UKIJDi.ttf");
+}
+@font-face {
+	font-family: "cjk";
+	src:url("../font/UKIJCJK.ttf");
+}
+@font-face {
+	font-family: "jelli";
+	src:url("../font/UKIJJe.ttf");
+}
+
+#tag {
+	width: 1900px;
+	height: 960px;
+	background: black;
+	position: relative;
+	margin:auto;
+}
+
+#tag #back {
+	width: 640px;
+	height: 960px;
+	margin: 4px auto;
+	background: url("../img/cipilbackground.jpg");
+	position: relative;
+	overflow: hidden;
+}
+
+#tag #back #left {
+	width: 64px;
+	height: 1920px;
+	background: url("../img/leftwall.png");
+	position: absolute;
+	background-repeat:repeat;
+	top: -960px;
+	left: 0px;
+}
+
+#tag #back #right {
+	width: 64px;
+	height: 1920px;
+	background: url("../img/rightwall.png");
+	position: absolute;
+	background-repeat:repeat;
+	top: -960px;
+	right: 0px;
+}
+
+#tag #back #asti {
+	width: 640px;
+	height: 400px;
+	background: url("../img/cipilasti.png");
+	position: absolute;
+	top: 560px;
+}
+
+#tag  #stop {
+width: 72px;
+height: 72px;
+background: url("../img/stopbuttom.png");
+position: absolute;
+top: 889px;
+right: 189px;
+cursor: pointer;
+}
+
+#tag #back #ninja {
+	width: 70px;
+	height: 70px;
+	background: url("../img/leftwalk.gif");
+	position: absolute;
+	left: 63px;
+	top: 741px;
+}
+
+#tag #back #showbox {
+	width: 193px;
+	height: 42px;
+	background: url("../img/shownumber.png");
+	left: 219px;
+	top: 89px;
+	position: absolute;
+	display:block;
+}
+
+#tag #back #showbox #in {
+	width: 81px;
+	height: 28px;
+	position: absolute;
+	top: 5px;
+	left: 58px;
+	border: 0px;
+	outline: none;
+	font-size: 25px;
+	background: rgba(255, 255, 255, 0);
+	color: rgb(255, 255, 255);
+		
+}
+
+#tag  #suspent_pic {
+	width: 500px;
+	height: 500px;
+	background: url("../img/suspent.png");
+	position: absolute;
+	top: 459px;
+	left: 263px;
+	display:none;
+}
+
+#tag  #suspent_pic #play {
+	width: 231px;
+	height: 97px;
+	position: absolute;
+	background: url("../img/play_pic.png");
+	left: 139px;
+	top: 104px;
+	background-size: cover;
+	cursor:pointer;
+	-webkit-animation-name:herkat;
+	-webkit-animation-duration:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+}
+@-webkit-keyframes herkat{
+	0%{-webkit-transform: scale(1, 1);}
+	50%{-webkit-transform: scale(0.9, 0.9);}
+	100%{-webkit-transform: scale(1, 1);}
+}
+
+#tag  #suspent_pic #font {
+	width: 131px;
+	height: 60px;
+	position: absolute;
+	left: 175px;
+	top: 256px;
+	color: rgb(200, 46, 34);
+	text-align: center;
+	line-height: 60px;
+	font-size: 54px;
+	font-family:tuz;
+}
+
+#tag  #suspent_pic #menu {
+	width: 151px;
+	height: 59px;
+	background: url("../img/menu_pic.png");
+	position: absolute;
+	top: 360px;
+	left: 180px;
+	background-size: cover;
+	color: rgb(204, 46, 46);
+	text-align: center;
+	line-height: 57px;
+	font-size: 38px;
+	cursor:pointer;
+	font-family:diwani;
+	-webkit-transition: text-shadow 0.5s;
+}
+#tag  #suspent_pic #menu:hover{
+	text-shadow: 0px 0px 30px white;
+	-webkit-transition: text-shadow 0.5s;
+}
+#tag #back #chain{
+width: 513px;
+height: 10px;
+position: absolute;
+top: -175px;
+left: 64px;
+background: url("../img/zanjir.png");
+}
+#tag #back #bridge{
+width: 524px;
+height: 153px;
+position: absolute;
+top: -175px;
+left: 58px;
+background: url("../img/tusuk.png");
+background-size: cover;
+}
+#tag #back #hinder{
+width: 149px;
+height: 74px;
+position: absolute;
+top: -175px;
+/* background-size: cover; */
+/* left: 0px; */
+/* left: 491px; */
+/* background: url("../img/rightasmatusuk.png"); */
+
+}
+#tag #back #knight{
+width: 118px;
+height: 172px;
+position: absolute;
+top: -175px;
+background-size: cover;
+/* left: 63px; */
+/* left: 459px; */
+background: url("../img/hoursright.gif"); 
+}
+#tag #back #monster{
+	width:70px;
+	height:70px;
+	background:url("../img/toright.gif");
+	position:absolute;
+	top:-175px;
+	left:63px;
+}
+#tag #back #fox{
+width: 31px;
+height: 99px;
+background: url("../img/mo_left-walk.gif");
+position: absolute;
+top: -175px;
+left: 63px;
+}
+#tag #back #bird{
+width: 80px;
+height: 70px;
+background: url("../img/bird_right.gif");
+position: absolute;
+top: -175px;
+left: 63px;
+}
+
+/* malup boldi */
+#tag #back #fall{
+width: 481px;
+height: 477px;
+position: absolute;
+left: 81px;
+top: 75px;
+background: url("../img/fall.png");
+display:none;
+}
+#tag #back #fall #tizim{
+width: 119px;
+height: 48px;
+background: url("../img/menu_pic.png");
+position: absolute;
+right: 26px;
+top: 21px;
+background-size: cover;
+text-align: center;
+line-height: 48px;
+color: rgb(255, 255, 255);
+font-family:tuz;
+font-size: 24px;
+	
+}
+#tag #back #fall #heightfont{
+width: 179px;
+height: 62px;
+position: absolute;
+left: 79px;
+top: 40px;
+color: rgb(255, 0, 0);
+font-family:cjk;
+text-align: center;
+line-height: 60px;
+font-size: 60px;
+}
+#tag #back #fall #heightnum{
+width: 222px;
+height: 70px;
+position: absolute;
+left: 54px;
+top: 116px;
+}
+#tag #back #fall #heightnum input{
+	width: 220px;
+height: 68px;
+background: rgba(253, 253, 253, 0);
+border: 0px;
+outline: none;
+font-size: 43px;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+#tag #back #fall #bestfont{
+width: 113px;
+height: 65px;
+position: absolute;
+left: 328px;
+top: 95px;
+color: rgb(255, 255, 255);
+font-family:cjk;
+text-align: center;
+line-height: 60px;
+font-size: 28px;
+}
+#tag #back #fall #bestnum{
+width: 128px;
+height: 41px;
+position: absolute;
+left: 324px;
+top: 150px;
+}
+#tag #back #fall #bestnum input{
+width: 126px;
+height: 38px;
+background: rgba(253, 253, 253, 0);
+border: 0px;
+outline: none;
+font-size: 30px;
+text-align: center;
+color: rgb(249, 5, 5);
+}
+#tag #back #fall #again{
+width: 236px;
+height: 202px;
+background: url("../img/again2.png");
+position: absolute;
+left: 45px;
+top: 258px;
+text-align: center;
+line-height: 59px;
+color: rgb(255, 0, 0);
+font-family:jelli;
+font-size: 45px;
+background-size: cover;
+-webkit-transition: text-shadow 0.9s;
+}
+#tag #back #fall #again #fontamima{
+width: 224px;
+height: 61px;
+background: rgba(249, 235, 235,0);
+position: absolute;
+left: 7px;
+top: 2px;
+text-align: center;
+line-height: 59px;
+color: rgb(255, 0, 0);
+font-family:jelli;
+font-size: 45px;
+background-size: cover;
+-webkit-transition: text-shadow 0.9s;
+
+ 	-webkit-animation-name:herkat_p;
+	-webkit-animation-duration:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+}
+@-webkit-keyframes herkat_p{
+	0%{-webkit-transform: scale(1, 1);}
+	50%{-webkit-transform: scale(0.9, 0.9);}
+	100%{-webkit-transform: scale(1, 1);} 
+}
+#tag #back #fall #again #fontamima:hover{
+	text-shadow:0px 0px 10px white;
+	-webkit-transition:text-shadow 0.9s;
+}

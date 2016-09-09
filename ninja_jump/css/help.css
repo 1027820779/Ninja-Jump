@@ -1,0 +1,67 @@
+@font-face {
+	font-family: "tuz";
+	src:url(../font/UKIJTuz.ttf);
+}
+#tag {
+	width: 1900px;
+	height: 960px;
+	background: black;
+	position: relative;
+	margin:auto;
+}
+
+#tag #back {
+	width: 640px;
+	height: 960px;
+	margin: 4px auto;
+	background: url("../img/help.jpg");
+	position: relative;
+}
+
+#tag #back #explain1 {
+	position: absolute;
+	top: 167px;
+	width: 398px;
+	height: 60px;
+	color: rgb(255, 0, 0);
+	font-family:tuz;
+	font-size: 20px;
+	text-align: justify;
+	right: 42px;
+}
+
+#tag #back #explain2 {
+	position: absolute;
+	top: 314px;
+	left: 22px;
+	width: 338px;
+	height: 103px;
+	color: rgb(0, 158, 255);
+	font-family:tuz;
+	font-size: 39px;
+	text-align: justify;
+}
+
+#tag #back #explain3 {
+	position: absolute;
+	top: 587px;
+	right: 20px;
+	width: 269px;
+	height: 75px;
+	color: rgb(32, 213, 228);
+	font-family:tuz;
+	font-size: 27px;
+	text-align: justify;
+}
+
+#tag #back #explain4 {
+	position: absolute;
+	top: 878px;
+	left: 25px;
+	width: 278px;
+	height: 76px;
+	color: rgb(245, 58, 72);
+	font-family:tuz;
+	font-size: 21px;
+	text-align: justify;
+}
